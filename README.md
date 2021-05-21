@@ -1,1 +1,4 @@
-# ADL_Project
+# ADL Project - Pneumonia Detection of Chest X-Ray Images
+Convolutional Neural Networks (CNN's) which are used for detecting pneumonia is a highly relevant issue due to the large number of casualties resulting from the disease. The main objective of this report is to investigate the performance of different CNN's, both our own architectures and a pretrained model called EfficientNet which is considered state of the art on binary image classification of lung X-rays. The results of was an obtained accuracy of 94.6\% on the test set and a F1-Score of 95.7\% using our top performing architecture. Further we did not manage to obtain desired results with the EfficientNet, perhaps due to lack of training capability were we achieve accuracy's ranging from 50-84\%. t-SNE and PCA analysis was performed on the data were global and local structures and similarities between the data was analysed.
+
+During classification, heat-maps of the convolutional layers activation's was extracted and a visualization of what the CNN's are "looking" at is analysed. Clearly showing the differences in activation's from the CNN given images of pneumonia and healthy lungs.
